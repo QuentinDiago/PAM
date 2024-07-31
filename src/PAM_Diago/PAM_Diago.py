@@ -20,7 +20,7 @@ HF_REPO = "microsoft/msclap"
 CLAP_VERSION = "CLAP_weights_2023.pth"
 PAM_PROMPTS = ['the sound is clear and clean.','the sound is noisy and with artifacts.']
 
-class PAM():
+class PAM_Diago():
     """
     A class for PAM metric.  
     """

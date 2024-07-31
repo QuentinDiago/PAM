@@ -1,3 +1,5 @@
 raw_audios/*
 audios_converted
 results.json
+dist
+PAM_Diago.egg-info

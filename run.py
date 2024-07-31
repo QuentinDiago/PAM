@@ -2,8 +2,8 @@ import argparse
 import torch
 from torch.utils.data import DataLoader
 from tqdm import tqdm
-from PAM import PAM
-from dataset import ExampleDatasetFolder
+from src.PAM_Diago import PAM_Diago
+from src.dataset import ExampleDatasetFolder
 from pydub import AudioSegment
 import os
 import shutil
@@ -18,7 +18,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # initialize PAM
-    pam = PAM(use_cuda=torch.cuda.is_available())
+    pam = PAM_Diago(use_cuda=torch.cuda.is_available())
     
     CONVERTED_FOLDER = './audios_converted'
     
