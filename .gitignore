@@ -1,5 +1,2 @@
-raw_audios/*
-audios_converted
+tests
 results.json
-dist
-PAM_Diago.egg-info

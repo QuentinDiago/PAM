@@ -3,7 +3,7 @@ import torch
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 from src.PAM_Diago import PAM_Diago
-from src.dataset import ExampleDatasetFiles
+from PAM_Diago.dataset import ExampleDatasetFiles
 import os
 import glob
 import pandas as pd
